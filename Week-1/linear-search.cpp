@@ -16,6 +16,6 @@ int main() {
             if (arr[i] == key) { flag = true; break; }
         if (flag) cout << "Present ";
         else cout << "Not Present ";
-        cout << i;
+        cout << ++i;
     }
 }
