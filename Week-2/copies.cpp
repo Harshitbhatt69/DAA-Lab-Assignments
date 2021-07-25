@@ -18,7 +18,7 @@ int main() {
         cin >> key;
         for (int i = 0; i < n; i++) {
             if (arr[i] == key) {
-                cout << "Present " << mp[arr[i]] << " times";
+                cout << key << "-" << mp[arr[i]];
                 flag = true;
                 break;
             }
